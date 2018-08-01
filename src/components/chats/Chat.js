@@ -62,7 +62,8 @@ class Chat extends Component {
         />
         <ScrollView
           contentContainerStyle={{
-            justifyContent: "space-between"
+            justifyContent: "space-between",
+            paddingBottom: 80
           }}
         >
           {this.state.messages.map((text, i) => this.renderMessage(text, i))}
